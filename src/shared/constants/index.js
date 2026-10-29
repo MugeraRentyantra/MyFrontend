@@ -6,7 +6,7 @@ const env = import.meta.env;
 
 export const APP_NAME = env.VITE_APP_NAME || 'Internship Portal';
 export const API_BASE_URL = String(env.VITE_API_URL || '/api/v1').replace(/\/+$/, '');
-export const USE_MOCKS = env.VITE_USE_MOCKS === 'true';
+export const USE_MOCKS = env.VITE_USE_MOCKS !== 'false';
 export const SUPPORT_EMAIL = env.VITE_SUPPORT_EMAIL || 'support@internshipportal.dev';
 export const PAYMENT_PROVIDER = env.VITE_PAYMENT_PROVIDER || 'mock';
 

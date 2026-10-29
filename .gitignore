@@ -6,11 +6,10 @@ dist/
 dist-ssr/
 *.local
 
-# env (only .env.example and .env.development are committed)
+# env (only .env.example, .env.development and .env.production are committed)
 .env
 .env.local
 .env.*.local
-.env.production
 
 # tests
 coverage/
