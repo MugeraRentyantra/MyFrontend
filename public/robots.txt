@@ -1,0 +1,18 @@
+# Public marketing and verification pages may be indexed; app areas may not.
+User-agent: *
+Allow: /
+Allow: /internships
+Allow: /verify
+Disallow: /dashboard
+Disallow: /assessment
+Disallow: /enroll
+Disallow: /payment
+Disallow: /schedule
+Disallow: /tasks
+Disallow: /team
+Disallow: /certificate
+Disallow: /profile
+Disallow: /github
+Disallow: /trainer
+Disallow: /admin
+Disallow: /dev
