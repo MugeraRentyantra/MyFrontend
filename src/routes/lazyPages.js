@@ -70,9 +70,9 @@ export const AdminEnrollmentsPage = lazy(() => import('@/features/admin/pages/En
 export const AdminPaymentsPage = lazy(() => import('@/features/admin/pages/PaymentsPage'));
 export const AdminCertificatesPage = lazy(() => import('@/features/admin/pages/CertificatesPage'));
 export const AuditLogPage = lazy(() => import('@/features/admin/pages/AuditLogPage'));
-export const DesignationsPage = lazy(() => import('@/features/employer/pages/DesignationsPage'));
-export const DomainsPage = lazy(() => import('@/features/employer/pages/DomainsPage'));
-export const PlansPage = lazy(() => import('@/features/employer/pages/PlansPage'));
+export const DesignationsPage = lazy(() => import('@/features/catalog/pages/DesignationsPage'));
+export const DomainsPage = lazy(() => import('@/features/catalog/pages/DomainsPage'));
+export const PlansPage = lazy(() => import('@/features/catalog/pages/PlansPage'));
 export const AssessmentConfigListPage = lazy(
   () => import('@/features/assessment-builder/pages/AssessmentConfigListPage'),
 );

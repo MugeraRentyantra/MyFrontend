@@ -70,7 +70,7 @@ only talk to `src/services/*`, which follow the same contract as the mocks.
 src/
   features/            feature-sliced modules (components, hooks, pages, schemas, index.js)
     auth, internships, assessment, enrollment, applications, teams, dashboard, schedule, tasks,
-    github, profile, certificates, admin, employer, assessment-builder, schedule-builder,
+    github, profile, certificates, admin, catalog, assessment-builder, schedule-builder,
     assignments, trainer
   routes/              data router: public, auth, student, trainer, admin groups + guards
   services/            axios client + one module per API area, React Query keys/client
